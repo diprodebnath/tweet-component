@@ -1,0 +1,38 @@
+.TweetComponent{
+     width: 550px;
+     margin: auto;
+    padding: 10px;
+ }
+div.img{
+    margin: 10px 5px;
+    padding: 11px;
+    display: inline-block;
+    background-color: #d2f3f152;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px #4848483d;
+}
+div.info{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+div.info p{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+div.info p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #adeae7;
+}
+div.info  span.user_name, div.info span.upload_time{
+    margin-left: 10px;
+    color: #7f8a8a;
+}
+div.info span.upload_time:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #adeae7;
+}
