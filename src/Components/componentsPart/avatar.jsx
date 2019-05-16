@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const Avatar = (props) => {
+export const Avatar = ({avatar}) => {
     return (
         <div className="img-side col-md-3">
             <div className="img">
-                <img src={props.avatar} alt=""/>
+                <img src={avatar} alt=""/>
             </div>
         </div>
     );
