@@ -6,7 +6,12 @@ class App extends Component {
 
 
     render() {
-        return <Tweet/>;
+        return (
+            <div className="container">
+
+                    <Tweet/>
+
+            </div>);
     }
 }
 

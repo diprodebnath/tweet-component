@@ -1,12 +1,26 @@
+body{
+    background-color: #d0e9ee;
+}
 .TweetComponent{
      width: 550px;
      margin: auto;
     padding: 10px;
- }
+    background-color: #fff;
+    border-bottom: 1px solid #cdd6dc99;
+}
+.TweetComponent:hover{
+    background-color: rgba(235, 255, 255, 0.8);
+}
+div.img-side{
+    max-width: 19%;
+    padding-right: 0;
+}
+div.info-side{
+    padding-left: 5px;
+}
 div.img{
     margin: 10px 5px;
     padding: 11px;
-    display: inline-block;
     background-color: #d2f3f152;
     border-radius: 50%;
     box-shadow: 0px 0px 20px 0px #4848483d;
@@ -15,12 +29,13 @@ div.info{
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
-    margin-left: 10px;
+
 }
 div.info p{
     display: inline-block;
     font-size: 0.9rem;
     font-weight: 700;
+    margin: 0;
 }
 div.info p:hover{
     text-decoration: underline;
@@ -35,4 +50,26 @@ div.info span.upload_time:hover{
     text-decoration: underline;
     cursor: pointer;
     color: #adeae7;
+}
+div.massege p{
+    font-size: 0.8rem;
+}
+.buttons button{
+    background: none;
+    border: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.buttons button i{
+    font-size: 18px;
+    color: #7d8082;
+}
+.replay-btn i:hover{
+    color: #87e888;
+}
+.retweet-btn i:hover{
+    color: #78d6e8;
+}
+.like-btn i:hover{
+    color: #e84b70;
 }
